@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Basement Grotesque', sans-serif;
+}
+.page{
+    background-color: #fff;
+}
+.logo{
+    width: 9.391rem;
+}
+.login{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form > input{
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.313rem;
+    width: 15.125rem;
+    height: 2.25rem;
+    border: 2px solid black;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+}
+.titolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 3.125rem;
+    color: #9F1609;
+    justify-content: bottom;
+}
+.title::after{
+    content: "";
+    width: 100%;
+    height: 0.169rem;
+    background-color: black;
+    opacity: 20%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
