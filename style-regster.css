@@ -31,6 +31,7 @@
     column-gap: 1.5rem;
 }
 .titolo{
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +41,7 @@
     font-size: 3.125rem;
     color: #9F1609;
     justify-content: bottom;
+    margin-bottom: 1.5rem;
 }
 .title::after{
     content: "";
@@ -47,9 +49,26 @@
     height: 0.169rem;
     background-color: black;
     opacity: 20%;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5rem
     
+}
+.obb{
+    color: black;
+    font-size: 0.75rem;
+    justify-content: bottom;
+    margin-bottom: 1.69rem;
+    text-decoration: underline;
+    font-family: 'Argentum Sans', sans-serif;
+}
+.form > input::placeholder{
+    font-size: 0.75rem;
+    color: black;
+}
+.form>input:focus:not([type='submit']){
+    outline: none;
+    border: 2px solid #9F1609;
 }
