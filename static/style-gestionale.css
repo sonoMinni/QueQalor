@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.titolo{
+    font-size: 50px;
+    color: #9F1609;
+    margin-left: 809px;
+    margin-top: 423px;
+}
+
+.titolo::after{
+    content: "";
+    width: 242px;
+    height: 0.168rem;
+    background-color: black;
+    opacity: 20%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
