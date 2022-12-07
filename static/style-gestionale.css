@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Argentum Sans', sans-serif;
+    src: url(../fonts/ArgentumSans-Medium.ttf);
+    src: url(../fonts/ArgentumSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Basement Grotesque', sans-serif;
+    src: url(../fonts/BasementGrotesque-Black_v1.202.otf);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -102,7 +113,7 @@
     margin-top: 0.313rem;
 }
 
-.privacy{
+.privacy p{
     color: #9F1609;
     text-align: center;
     margin-top: 34px;
