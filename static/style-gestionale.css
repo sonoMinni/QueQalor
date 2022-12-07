@@ -28,5 +28,42 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 0.5rem
-    
 }
+
+.form > input::placeholder{
+    font-size: 0.75rem;
+    color: black;
+}
+.form>input:focus:not([type='submit']){
+    outline: none;
+    border: 2px solid #9F1609;
+}
+
+.form{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form > input{
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.313rem;
+    width: 15.125rem;
+    height: 2.25rem;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+.form{
+    display: grid;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+}
+
+.label{
+    font-size: 16px;
+    font-family: 'Basement Grotesque', sans-serif;
+    margin-bottom: -30px;
+}
+    
