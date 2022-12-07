@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Argentum Sans', sans-serif;
+    src: url(../fonts/ArgentumSans-Medium.ttf);
+    src: url(../fonts/ArgentumSans-SemiBold.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+}
+
+.page{
+    width: 100%;
+   
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 4rem;
+    height: 3.875rem;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.contact1{
+    background-color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 250px;
+    
+}
+
+.contact1 p{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.contact2{
+    background-color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact2 p{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.navbar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#consulenza{
+    color: #9F1609;
+    text-decoration: underline;
+    margin-right: 50px;
+}
+
