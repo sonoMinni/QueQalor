@@ -73,3 +73,19 @@ body{
     margin-right: 50px;
 }
 
+.titolo{
+    color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sottotitolo{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 10px;
+}
+
