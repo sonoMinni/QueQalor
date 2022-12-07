@@ -107,4 +107,32 @@
     text-align: center;
     text-decoration: underline;
     color: #9F1609;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.error span{
+    color: #fff;
+    font-size: 0.75rem;
+    font-family: 'Argentum Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    background-color: #9F1609;
+    width: 15.125rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% auto;
+
+}
+.hidden{
+    display: none;
+}
+.error-input{
+    border: 2px solid #9F1609 !important;
 }
