@@ -89,6 +89,10 @@
     border: none;
     cursor: pointer;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 .btn:hover{
     transition: 0.23s;

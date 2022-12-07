@@ -27,7 +27,7 @@
             </form>
         </div>
         <div class="submit">
-            <button class="btn">Registrati</button>
+            <a class="btn" href="www.google.com">Registrati</a>
         </div>
         <div class="error hidden">
             <span class="avviso hidden">Riempi correttamente i campi</span>

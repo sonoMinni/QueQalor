@@ -22,7 +22,8 @@ btn.addEventListener('click', (e) => {
             if(input.value === ''){
                 input.classList.add('error-input')
             }
-            
         });
+    }else{
+        
     }
 })
