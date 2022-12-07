@@ -10,6 +10,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .title{
     font-size: 3.125rem;
     color: #9F1609;
@@ -66,4 +67,26 @@
     font-family: 'Basement Grotesque', sans-serif;
     margin-bottom: -30px;
 }
+
+.btn{
+    width: 16.125rem;
+    height: 2.25rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.23s;
+    background-color: #9F1609;
+}
+
+
+
+
     
