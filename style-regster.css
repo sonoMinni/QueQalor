@@ -23,6 +23,8 @@
     width: 15.125rem;
     height: 2.25rem;
     border: 2px solid black;
+    padding-left: 5px;
+    font-family: 'Argentum Sans', sans-serif;
 }
 .form{
     display: grid;
@@ -67,8 +69,42 @@
 .form > input::placeholder{
     font-size: 0.75rem;
     color: black;
+    padding-left: 0.5rem;
 }
 .form>input:focus:not([type='submit']){
     outline: none;
     border: 2px solid #9F1609;
+}
+.btn{
+    width: 15.125rem;
+    height: 2.25rem;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+}
+.btn:hover{
+    transition: 0.23s;
+    background-color: #9F1609;
+}
+.submit{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.privacy{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Argentum Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #9F1609;
 }
