@@ -27,15 +27,74 @@
     gap: 5rem;
     padding-top: 1rem;
     padding-left: 1rem;
+    margin-bottom: 2rem;
 }
 .switcher{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #ECECEC;
+    width: 18rem;
+    height: 4rem;
+    border-radius: 0.313rem;
+    margin: auto;
+    text-align: left;
+}
+.switcher>span{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: black;
+    border-radius: 25px;
+}
+
+.switcher .img {
+    margin: auto;
+}
+.img{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.switcher:hover{
+    background-color: #D8D8D8;
+}
+.switcher:active{
+    background-color: #C4C4C4;
+}
+.scelte::before{
+    content: "";
+    width: 75%;
+    height: 0.169rem;
+    background-color: black;
+    opacity: 20%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+.scelte{
+    margin-left: 1rem;
+}
+
+.scelte li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.ariaText{
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ECECEC;
-    width: 75%;
-    height: 4rem;
-    border-radius: 0.313rem;
-    margin: 2rem auto;
+    text-align: center;
 }
