@@ -23,7 +23,16 @@ btn.addEventListener('click', (e) => {
                 input.classList.add('error-input')
             }
         });
-    }else{
-        
     }
+    if (input('password').value !== input('password2').value) {
+        e.preventDefault()
+        setTimeout(() => {
+        avviso.classList.remove('hidden')
+        error.classList.remove('hidden')
+        }, 0)
+        input('password').classList.add('error-input')
+        input('password2').classList.add('error-input')
+    }
+        
 })
+

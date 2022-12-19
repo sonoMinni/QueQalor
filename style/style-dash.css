@@ -76,16 +76,14 @@
     margin-bottom: 0.5rem;
     margin-left: 2.5rem;
 }
-
-.scelte{
-    margin-left: 1rem;
-}
-
 .scelte li {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: start;
+    margin-top: 1.75rem;
+    margin-bottom: 1.438rem;
+    margin-left: 2rem;
 }
 .ariaText{
     font-size: 1rem;
@@ -97,4 +95,29 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.supporto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 5%;
+    left: 2rem;
+}
+.supportText{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, 10%);
+}
+.faqText{
+    color: #9F1609;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: underline;
+
 }
