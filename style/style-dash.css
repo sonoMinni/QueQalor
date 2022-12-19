@@ -170,13 +170,23 @@ border-radius: 15px;
     width: 83px;
     height: 83px;
     align-items: center;
+    border: 5px solid #9F1609;
+    border-radius: 50%;
 }
     
 .icons{
     padding-bottom: 1rem;
 }
 
-.type{
-    width: 6rem;
-    height: 6rem;
+.air{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 10rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: 5.3rem;
 }
