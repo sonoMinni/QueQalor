@@ -42,7 +42,7 @@ body{
     font-family: 'Argentum Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 250px;
+    margin-left: 200px;
     
 }
 
@@ -67,6 +67,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
 }
 
 #consulenza{
@@ -98,6 +103,15 @@ body{
     text-align: center;
     font-size: 22px;
     text-decoration: underline;
+}
+
+.sottotitolo3{
+    color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 22px;
+
 }
 
 .container{
@@ -199,4 +213,9 @@ body{
 
 #columnimages img{
     margin-bottom: 50px;
+}
+
+.divisorio{
+    width: 100%;
+    height: 2px;
 }
