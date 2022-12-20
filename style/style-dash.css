@@ -1,15 +1,18 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Basement Grotesque', sans-serif;
 }
 .page{
     background-color: #ECECEC;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Basement Grotesque', sans-serif;
 }
 .leftBar{
    max-width: 20.625rem;
    height: 100vh;
    background-color: white;
+   padding: 0 1rem;
 }
 .logo{
     width: 3.486rem;
@@ -21,39 +24,35 @@
     align-items: center;
     justify-content: center;
     margin-top: .5rem;
+    font-weight: 600;
 }
 .headerLeft{
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     padding-top: 1rem;
-    padding-left: 1rem;
     margin-bottom: 2rem;
+    font-family: 'Argentum Sans', sans-serif;
 }
 .switcher{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    justify-items: center;
-    background-color: #ECECEC;
-    width: 18rem;
-    height: 4rem;
-    border-radius: 0.313rem;
-    margin: auto;
-    text-align: left;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 95px;
+    background: #ECECEC;
+    border-radius: 15px;
 }
 .switcher>span{
-    margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    font-size: 1.125rem;
-    font-weight: 500;
+    font-size: 1rem;
     color: black;
     border-radius: 25px;
 }
 
-.switcher .img {
+.switcher .imgBar {
     margin: auto;
 }
-.img{
+.imgBar{
     width: 1.8rem;
     height: 1.8rem;
 }
@@ -65,28 +64,39 @@
 }
 .scelte::before{
     content: "";
-    width: 75%;
+    width: 242px;
     height: 0.169rem;
     background-color: black;
     opacity: 20%;
     margin-top: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 0.5rem;
-    margin-left: 2.5rem;
+    margin-left: 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
 }
+
+.scelte{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+} 
+
 .scelte li {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    margin-top: 1.75rem;
     margin-bottom: 1.438rem;
-    margin-left: 2rem;
+
 }
 .ariaText{
-    font-size: 1rem;
+    font-size: 1.125rem;
     margin-left: 1rem;
     font-weight: 500;
     color: black;
@@ -96,28 +106,146 @@
     justify-content: center;
     text-align: center;
 }
-.supporto{
+
+.supportContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.supportContainer a{
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.support{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    bottom: 5%;
-    left: 2rem;
-}
-.supportText{
-    font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, 10%);
+    bottom: 1.5rem;
+    gap: 2rem;
 }
-.faqText{
-    color: #9F1609;
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: underline;
 
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9F1609;
+    width: 8rem;
+    height: 3.25rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.btn span{
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.faq a{
+    color: #9F1609;
+    text-decoration: underline;
+}
+
+.boxContainer{
+    margin-top: 3rem;
+}
+
+.whiteBox{
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 1111px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    flex-direction: column;
+    padding: 0;
+}
+
+#tempBox{
+    margin-top: 7rem;
+}
+
+#energyBox{
+    margin-top: 7rem;
+}
+
+.main{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+
+}
+
+.notifyicon{
+    width: 42px;
+    height: 42px;
+}
+
+.profileBtn{
+    width: 83px;
+    height: 83px;
+    align-items: center;
+    border: 5px solid #9F1609;
+    border-radius: 50%;
+}
+    
+.icons{
+    padding-bottom: 1rem;
+}
+
+.air{
+    width: 5rem;
+    height: auto;
+}
+
+.imgType{
+    padding-bottom: 1.125rem;
+}
+
+.title{
+    font-size: 1.2rem;
+}
+
+.subTitle{
+    font-family: 'Argentum Sans', sans-serif;
+    color: #A6A6A6;
+    font-weight: 300;
+    padding-bottom: 3.5rem;
+}
+
+.singol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.3rem;
+    /*
+    justify-content: space-around;
+    width: 100%;
+   */
 }
