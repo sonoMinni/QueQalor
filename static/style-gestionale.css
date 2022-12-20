@@ -1,17 +1,12 @@
-@font-face {
-    font-family: 'Argentum Sans', sans-serif;
-    src: url(../fonts/ArgentumSans-Medium.ttf);
-    src: url(../fonts/ArgentumSans-SemiBold.ttf);
-}
 
-@font-face {
-    font-family: 'Basement Grotesque', sans-serif;
-    src: url(../fonts/BasementGrotesque-Black_v1.202.otf);
-}
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Basement Grotesque', sans-serif;
+}
+.logo{
+    width: 9.391rem;
 }
 
 .titolo{
@@ -25,9 +20,9 @@
 .title{
     font-size: 3.125rem;
     color: #9F1609;
-    justify-content: bottom;
+    justify-content: center;
     margin-bottom: 1.5rem;
-    font-family: 'Basement Grotesque', sans-serif;
+    
 }
 .title::after{
     content: "";
@@ -66,6 +61,7 @@
     height: 2.25rem;
     border: 2px solid black;
     padding-left: 10px;
+    font-family: 'Argentum Sans', sans-serif;
 }
 .form{
     display: grid;
@@ -75,7 +71,7 @@
 
 .label{
     font-size: 16px;
-    font-family: 'Basement Grotesque', sans-serif;
+    
     margin-bottom: -30px;
 }
 
@@ -108,7 +104,7 @@
 }
 
 .accedi{
-    font-family: 'Basement Grotesque', sans-serif;
+    
     font-size: 14px;
     margin-top: 0.313rem;
 }

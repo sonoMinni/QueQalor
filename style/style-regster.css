@@ -150,3 +150,10 @@
 .error-input{
     border: 2px solid #9F1609 !important;
 }
+.access{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}

@@ -18,7 +18,7 @@
             <p class="obb">Tutti i campi sono obbligatori*</p>
         </div>
         <div class="login">
-            <form method="POST" class="form" action="./back-end-register.php" onsubmit="return validate();">
+            <form method="POST" class="form" action="back-end-register.php" onsubmit="return validate();">
                 <div class="inputs">
                 <input name="name" type="text" class="nome" placeholder="Nome">
                 <input name="surname" type="text" class="cognome" placeholder="Cognome">
@@ -27,10 +27,13 @@
                 <input name="pw" type="password" class="pw" placeholder="Password">
                 <input name="confirmPW" type="password" class="confirmPW" placeholder="Conferma Password">
                 </div>
-                <button type="submit" class="btn">registrati</button>
+                <button name="registerBtn"type="submit" class="btn">registrati</button>
             </form>
         </div>
-       
+        <div class="access">
+            <p class="accesso">Hai già un account?</p>
+            <a href="gestionale.html" class="accedi">Accedi</a>
+        </div>
         <div class="error hidden">
             <span class="avviso hidden">Riempi correttamente i campi</span>
             <span class="avviso2 hidden">Le password non coincidono</span>

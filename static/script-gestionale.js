@@ -9,30 +9,35 @@ function checkInput() {
     return check
 }
 const users = [
-    {usernam: 'admin', password: 'admin', id: 123456789},
+    {username: 'admin', password: 'admin', id: 123456789},
     {username: 'admin2', password: 'admin2', id : 987654321}
 ]
 
 function login(){
-    let username = document.getElementsByTagName('email')[0].value
-    let password = document.getElementsByTagName('pw')[0].value
-    let id = document.getElementsByTagName('id')[0].value
-
-
-    var user = users.find(user => {
-        return user.username === username && user.password === password && user.id === id;
+    console.log('sono dentro e dovrei funzionare')
+    let username = document.getElementsByName('email')[0].value
+    let password = document.getElementsByName('pw')[0].value
+    let id = document.getElementsByName('id')[0].value
+    var user = users.findIndex(user => {
+        //console.log('found',user.id == id)
+        return user.username == username && user.password == password && user.id == id;
     });
-    if(user){
-        window.location.href = 'skels/dashboard.html'
+
+    if(users[user].id){
+        console.log('dovrei cambiare pagina', users[user])
+        window.location.replace('http://127.0.0.1:5500/skels/dashboard.html')
     }else{
         alert('wrong credentials')
     }
 }
+
 let btn = document.querySelector('.btn')
 btn.addEventListener('click', (e) => {
+    
     let avviso = document.querySelector('.error>span')
     let error= document.querySelector('.error')
     if (!checkInput()) {
+        console.log('non è entrata nella funzione login');
         e.preventDefault()
         setTimeout(() => {
         avviso.classList.remove('hidden')
@@ -43,5 +48,8 @@ btn.addEventListener('click', (e) => {
                 input.classList.add('error-input')
             }
         });
+    }else{
+        console.log('è entrata nella funzione login');
+        login()
     }
 })

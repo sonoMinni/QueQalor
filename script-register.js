@@ -14,24 +14,21 @@ function validate(){
             avviso.classList.add('avviso5')
             }, 0)
         return false;
-    }
-    if(email.indexOf("@") == -1 || email.length < 6){
+    }else if(email.indexOf("@") == -1 || email.length < 6){
         setTimeout(() => {
             avviso.classList.remove('hidden')
             error.classList.remove('hidden')
             avviso.classList.add('avviso3')
             }, 0)
         return false;
-    }
-    if(password.length < 6){
+    }else if(password.length < 6){
         setTimeout(() => {
             avviso.classList.remove('hidden')
             error.classList.remove('hidden')
             avviso.classList.add('avviso4')
             }, 0)
         return false;
-    }
-    if(password != password2){
+    }else if(password != password2){
         setTimeout(() => {
             avviso.classList.remove('hidden')
             error.classList.remove('hidden')
@@ -54,7 +51,7 @@ function checkInput() {
     })
     return check
 }
-/*let btn = document.querySelector('.btn')
+let btn = document.querySelector('.btn')
 btn.addEventListener('click', (e) => {
     let avviso = document.querySelector('.error>span')
     let error= document.querySelector('.error')
@@ -80,5 +77,5 @@ btn.addEventListener('click', (e) => {
         input('password2').classList.add('error-input')
     }
         
-})*/
+})
 
