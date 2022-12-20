@@ -43,13 +43,11 @@ body{
     font-family: 'Argentum Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap : 40px;
     
-}
-
-.contact1 p{
-    margin-right: 10px;
-    margin-left: 25px;
 }
 
 .contact2{
@@ -57,12 +55,13 @@ body{
     font-family: 'Argentum Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap : 40px;
 }
 
-.contact2 p{
-    margin-right: 10px;
-    margin-left: 25px;
-}
+
 
 .navbar div{
     display: flex;
@@ -73,6 +72,10 @@ body{
 .navbar{
     position: fixed;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #consulenza{
