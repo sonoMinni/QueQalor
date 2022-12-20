@@ -24,7 +24,6 @@ if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['email']) 
                         $sql = "INSERT INTO users (name, lastname, email, phone_number, password) VALUES ('$name', '$surname', '$email', '$number', '$pw')";
                         $result = mysqli_query($conn, $sql);
                         if ($result) {
-                            echo "ok";
                             header("Location: http://localhost:8000/skels/landing.html#");
                             die();
                         } else {
