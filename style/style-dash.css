@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: center;
     margin-top: .5rem;
+    font-weight: 600;
 }
 .headerLeft{
     display: flex;
@@ -34,26 +35,24 @@
 }
 .switcher{
     display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 20px 15px;
-gap: 95px;
-
-background: #ECECEC;
-border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 95px;
+    background: #ECECEC;
+    border-radius: 15px;
 }
 .switcher>span{
     font-size: 1rem;
-    font-weight: 500;
     color: black;
     border-radius: 25px;
 }
 
-.switcher .img {
+.switcher .imgBar {
     margin: auto;
 }
-.img{
+.imgBar{
     width: 1.8rem;
     height: 1.8rem;
 }
@@ -97,7 +96,7 @@ border-radius: 15px;
 
 }
 .ariaText{
-    font-size: 1rem;
+    font-size: 1.125rem;
     margin-left: 1rem;
     font-weight: 500;
     color: black;
@@ -133,6 +132,10 @@ border-radius: 15px;
 
 }
 
+.boxContainer{
+    margin-top: 3rem;
+}
+
 .whiteBox{
     background-color: #fff;
     border-radius: 1rem;
@@ -142,6 +145,16 @@ border-radius: 15px;
     justify-content: center;
     align-items: center;
     margin-left: 8rem;
+    flex-direction: column;
+    padding: 0;
+}
+
+#tempBox{
+    margin-top: 7rem;
+}
+
+#energyBox{
+    margin-top: 7rem;
 }
 
 .main{
@@ -171,7 +184,7 @@ border-radius: 15px;
     height: 83px;
     align-items: center;
     border: 5px solid #9F1609;
-    border-radius: 50%;
+    border-radius: 55%;
 }
     
 .icons{
@@ -179,14 +192,39 @@ border-radius: 15px;
 }
 
 .air{
-    display: flex;
-    flex-direction: row;
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: auto;
+}
+
+.imgType{
+    padding-bottom: 1.125rem;
 }
 
 .title{
+    font-size: 1.2rem;
+}
+
+.subTitle{
+    font-family: 'Argentum Sans', sans-serif;
+    color: #A6A6A6;
+    font-weight: 300;
+    padding-bottom: 3.5rem;
+}
+
+.singol{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 5.3rem;
+    /*
+    justify-content: space-around;
+    width: 100%;
+   */
 }
