@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Argentum Sans', sans-serif;
+    src: url(../fonts/ArgentumSans-Medium.ttf);
+    src: url(../fonts/ArgentumSans-SemiBold.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+
+.quarantacinquepx{
+    font-size: 45px;
+}
+
+.page{
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 4rem;
+    height: 3.875rem;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.contact1{
+    background-color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 200px;
+    
+}
+
+.contact1 p{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.contact2{
+    background-color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact2 p{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.navbar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+}
+
+#consulenza{
+    color: #9F1609;
+    text-decoration: underline;
+    margin-right: 50px;
+}
+
+.titolo{
+    color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sottotitolo{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 21px;
+}
+
+.sottotitolo2{
+    color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.sottotitolo3{
+    color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a{
+    margin-left: 15px;
+}
+
+.inizia{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.sottobtn{
+    color: white;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: medium;
+    font-family: 'Argentum Sans', sans-serif;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 104px;
+    text-align: center;
+    margin-left: 215px;
+}
+
+.boxwhite{
+    width: 250px;
+    height: 320px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.testo{
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 28px;
+    font-weight: medium;
+    margin-bottom: 24px;    
+}
+
+.textright{
+    width: 30%;
+    margin-left: 30px;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 0,75rem;
+}
+
+.textright ol{
+    margin-bottom: 12px;
+}
+
+#columnimages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#columnimages img{
+    margin-bottom: 50px;
+}
+
+.divisorio{
+    width: 100%;
+    height: 2px;
+}
+
+.page2{
+    width: 100%;
+    background-color: white ;
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
+.titolo2{
+    color: black;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sottotitolo1{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 21px;
+}
+
+.sottotitolo3{
+    color: black;
+    font-family: 'Argentum Sans', sans-serif;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.box p{
+    color: white;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+    margin-top: 100px;
+}
+
+.box label{
+    color: #9F1609;
+    font-family: 'Argentum Sans', sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+.box{
+    position: relative;
+    width: 380px;
+    height: 225px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: linear-gradient(45deg, #fbda61, #ff5acd);
+    margin-top: 112px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    
+}
+
+.imgbox{
+    position: absolute;
+    left: 48%;
+    top: -25%;
+    transform: translateX(-50%);
+    width: 147px;
+    height: 147px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 3s;
+}
+.box:hover{
+    height: 400px;
+}
+.card:hover .imgbox{
+    width: 200px;
+    height: 200px;
+}
+.imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
